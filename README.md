@@ -1,4 +1,23 @@
-Mobile Design
+PROJECT DETAILS
+-----------
+-----------
+Quick Read is a mobile application that makes use of A.I And ML to make studying easier for users. User can upload their pdf study material have an A.I read through it and they can ask the A.1 any question or ask for a summary of the whole PDF file.
+
+INSTALLATION PROCEDURE
+---------
+---------
+
+
+STEPS TO CONTRIBUTE FURTHER
+_________
+_________
+
+
+
+
+MOBILE DESIGN AND PROTOTYPE FOR THE SOLUTION 
+_________
+_________
 
 Design Prototype link
 https://www.figma.com/proto/RBB5f5lkXwDoNShwIe48uk/Hactober-fest?page-id=0%3A1&type=design&node-id=14-126&viewport=-2256%2C126%2C0.66&t=JESMUopYkk7AHEYt-1&scaling=scale-down&starting-point-node-id=3%3A60&mode=design
