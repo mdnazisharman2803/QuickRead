@@ -22,7 +22,7 @@ class _RootState extends State<Root> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF1D2327),
+      backgroundColor: Theme.of(context).primaryColor,
       body: Center(
         child: Image.asset(
           ImageConstants.logoImage,
