@@ -64,7 +64,10 @@ class LandingScreen extends StatelessWidget {
               ),
               const Gap(28),
               CustomButton(
-                onPressed: () {},
+                onPressed: () => Navigator.pushNamed(
+                  context,
+                  Routes.registrationScreen,
+                ),
                 size: const Size(
                   double.infinity,
                   54.0,
