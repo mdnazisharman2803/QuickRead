@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dartified/screens/root.dart';
+import 'package:flutter_dartified/config/customRouter.dart';
+import 'package:flutter_dartified/config/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,9 +17,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
-        primaryColor: Color(0xFF1D2327),
+        primaryColor: const Color(0xFF1D2327),
       ),
-      home: const Root(),
+      onGenerateRoute: CustomRouter.generateRoute,
+      initialRoute: Routes.root,
     );
   }
 }

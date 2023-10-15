@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dartified/config/routes.dart';
 import 'package:flutter_dartified/utils/export_utils.dart';
+import 'package:flutter_dartified/utils/extensions/extensions.dart';
 import 'package:flutter_dartified/widgets/export_widgets.dart';
 import 'package:gap/gap.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 
 class LandingScreen extends StatelessWidget {
@@ -13,12 +14,6 @@ class LandingScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Theme.of(context).primaryColor,
       body: Container(
-        margin: const EdgeInsets.only(
-          top: 82.0,
-          left: 16.0,
-          right: 16.0,
-        ),
-        // width: double.infinity,
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -36,24 +31,27 @@ class LandingScreen extends StatelessWidget {
               const Gap(46),
               Text(
                 LandingTextConstants.title,
-                style: GoogleFonts.spaceGrotesk(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                  fontSize: 40.0,
-                ),
+                style: const TextStyle()
+                    .spaceGrotesk
+                    .bold
+                    .colored(Colors.white)
+                    .sized(40.0),
               ),
               const Gap(16),
               Text(
                 LandingTextConstants.subTitle,
-                style: GoogleFonts.spaceGrotesk(
-                  fontWeight: FontWeight.normal,
-                  color: Colors.white,
-                  fontSize: 22.0,
-                ),
+                style: const TextStyle()
+                    .spaceGrotesk
+                    .normal
+                    .colored(Colors.white)
+                    .sized(22.0),
               ),
               const Gap(28),
               CustomButton(
-                onPressed: () {},
+                onPressed: () => Navigator.pushNamed(
+                  context,
+                  Routes.loginScreen,
+                ),
                 size: const Size(
                   double.infinity,
                   54.0,
@@ -80,7 +78,7 @@ class LandingScreen extends StatelessWidget {
             ],
           ),
         ),
-      ),
+      ).addMarginizedContainer(),
     );
   }
 }
