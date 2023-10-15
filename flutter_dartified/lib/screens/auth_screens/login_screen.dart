@@ -93,7 +93,7 @@ class _LoginScreenState extends State<LoginScreen> {
               CustomButton(
                 onPressed: () => Navigator.pushNamed(
                   context,
-                  Routes.loginScreen,
+                  Routes.tabNavigation,
                 ),
                 size: const Size(
                   double.infinity,

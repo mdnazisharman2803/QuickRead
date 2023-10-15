@@ -13,6 +13,26 @@ class CustomRouter {
         return MaterialPageRoute(
           builder: (_) => const LoginScreen(),
         );
+      case Routes.homeScreen:
+        return MaterialPageRoute(
+          builder: (_) => const HomeScreen(),
+        );
+      case Routes.tabNavigation:
+        return MaterialPageRoute(
+          builder: (_) => const TabNavigation(),
+        );
+      case Routes.howItWorksScreen:
+        return MaterialPageRoute(
+          builder: (_) => const HowItWorksScreen(),
+        );
+      case Routes.historyScreen:
+        return MaterialPageRoute(
+          builder: (_) => const HistoryScreen(),
+        );
+      case Routes.profileScreen:
+        return MaterialPageRoute(
+          builder: (_) => const ProfileScreen(),
+        );
       default:
         return MaterialPageRoute(
           builder: (_) => const Root(),
