@@ -1,5 +1,7 @@
+import 'dart:io';
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_dartified/config/routes.dart';
+import 'package:flutter_dartified/controller/upload_file.dart';
 import 'package:flutter_dartified/utils/constants/image_constants.dart';
 import 'package:flutter_dartified/utils/extensions/extensions.dart';
 import 'package:flutter_dartified/widgets/export_widgets.dart';
@@ -81,10 +83,19 @@ class HomeScreen extends StatelessWidget {
             ),
             const Gap(46),
             CustomButton(
-              onPressed: () => Navigator.pushNamed(
-                context,
-                Routes.homeScreen,
-              ),
+              onPressed: () async {
+                FilePickerResult? result = await FilePicker.platform.pickFiles(
+                  allowMultiple: false,
+                );
+                if (result != null) {
+                  List<File> files =
+                      result.paths.map((path) => File(path!)).toList();
+                  print("files $files");
+                } else {
+                  // User canceled the picker
+                }
+                UploadDocumentService.uploadFiles(context, result);
+              },
               size: const Size(
                 266,
                 54.0,
