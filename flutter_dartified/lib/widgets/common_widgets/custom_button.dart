@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dartified/utils/extensions/extensions.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CustomButton extends StatelessWidget {
@@ -36,11 +37,8 @@ class CustomButton extends StatelessWidget {
       ),
       child: Text(
         buttonName,
-        style: GoogleFonts.spaceGrotesk(
-          fontWeight: FontWeight.bold,
-          color: textColor,
-          fontSize: 20.0,
-        ),
+        style:
+            const TextStyle().spaceGrotesk.bold.colored(textColor).sized(20.0),
       ),
     );
   }
