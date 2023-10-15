@@ -16,7 +16,7 @@ INSTALLATION PROCEDURE
 
 
 
-STEPS TO CONTRIBUTE FURTHER
+STEPS TO CONTRIBUTE 
 ---------
 ---------
 ### Contributing to Dartified
