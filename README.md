@@ -19,19 +19,50 @@ INSTALLATION PROCEDURE
 STEPS TO CONTRIBUTE FURTHER
 ---------
 ---------
-We welcome contributions to Quick Read from the open-source community. Here's how you can contribute:
+### Contributing to Dartified
 
-1- Fork this repository.
+Thank you for your interest in contributing to Dartified! We welcome contributions from the community to help improve and grow this project. Before you get started, please take a moment to read through the following guidelines.
 
-2- Make your changes and commit them.
+### Code of Conduct
 
-3- Push your changes to your forked repository.
+Please note that we have a Code of Conduct in place. By participating in this project, you agree to abide by its terms. You can review the Code of Conduct [here](CODE_OF_CONDUCT.md).
 
-4-Open a pull request (PR) to the main repository. Please provide a detailed description of your changes.
+### Getting Started
 
-5- Your PR will be reviewed, and once approved, it will be merged.
+To contribute to this project, follow these steps:
 
-We appreciate your contributions to make Quick Read even better!
+1. Fork the repository.
+2. Create a new branch for your changes: 
+    ```
+    git checkout -b feature/my-feature
+    ```
+4. Make your changes and commit them:
+    ```
+    git commit -m "Add new feature"
+    ```
+6. Push your changes to your fork: 
+    ```
+    git push origin feature/my-feature
+    ```
+8. Submit a pull request to the main repository.
+
+### Pull Request Guidelines
+
+When submitting a pull request, please:
+
+- Provide a clear and concise title and description of your changes.
+- Ensure your code is well-documented and follows the project's coding style.
+- Test your changes thoroughly to avoid introducing bugs.
+
+### Reporting Issues
+
+If you encounter any issues or have suggestions for improvements, please [open an issue](https://github.com/mdnazisharman2803/dartified/issues) on GitHub.
+
+### License
+
+By contributing to this project, you agree that your contributions will be licensed under the project's License.
+
+Thank you for your contributions!
 
 
 
