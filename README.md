@@ -5,12 +5,33 @@ Quick Read is a mobile application that makes use of A.I And ML to make studying
 
 INSTALLATION PROCEDURE
 ---------
----------
+
+1- Clone the Repository 
+
+2- Navigate to the Project Directory.
+
+3-Install Dependencies.
+
+4- Start the Application.
+
 
 
 STEPS TO CONTRIBUTE FURTHER
 ---------
 ---------
+We welcome contributions to Quick Read from the open-source community. Here's how you can contribute:
+
+1- Fork this repository.
+
+2- Make your changes and commit them.
+
+3- Push your changes to your forked repository.
+
+4-Open a pull request (PR) to the main repository. Please provide a detailed description of your changes.
+
+5- Your PR will be reviewed, and once approved, it will be merged.
+
+We appreciate your contributions to make Quick Read even better!
 
 
 
@@ -19,14 +40,12 @@ MOBILE DESIGN AND PROTOTYPE FOR THE SOLUTION
 ---------
 ---------
 
-Design Prototype link
----------
----------
+### Design Prototype link
 
 https://www.figma.com/proto/RBB5f5lkXwDoNShwIe48uk/Hactober-fest?page-id=0%3A1&type=design&node-id=14-126&viewport=-2256%2C126%2C0.66&t=JESMUopYkk7AHEYt-1&scaling=scale-down&starting-point-node-id=3%3A60&mode=design
 
-Mobile Screen Designed
-Onboarding Screen
+
+### Mobile Screen Designed Onboarding Screen
 
 Splash Screen 1
 
